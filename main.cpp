@@ -24,18 +24,6 @@ public:
             vector<float> wiersz;
             cout << "Podaj wartosci z wiersza "
              << i+1 << " (oddzielone spacja): ";
-//            while(true)
-//            {
-//                float liczba;
-//                cin >> liczba;
-//                if (liczba_el<n)
-//                {
-//                    wiersz.push_back(liczba);
-//                    liczba_el++;
-//                }
-//                else
-//                    break;
-//            }
             for (int j=0; j<n; j++)
             {
                 float liczba;
@@ -102,14 +90,6 @@ public:
         }
         return miejsce;
     }
-
-//    void mnozenieWierszaSkalar(int wiersz, float skalar)
-//    {
-//        for (int kolumna=0; kolumna<n; kolumna++)
-//        {
-//            macierz[wiersz][kolumna] =
-//        }
-//    }
 
 
     void postacCalkowicieZredukowana()
@@ -205,7 +185,6 @@ int main()
                 cout << "Nie ma takiej opcji" << endl;
                 continue;
             }
-//            m1.znajdzJedynki();
         }
         else if (decyzja==2)
             break;
